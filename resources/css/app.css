@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@import 'tw-animate-css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@import "preline/variants.css";
+@source "../../node_modules/preline/dist/*.js";
+
+/*@layer base {*/
+/*    * {*/
+/*        @apply border-border outline-ring/50;*/
+/*    }*/
+/*    body {*/
+/*        @apply bg-background text-foreground;*/
+/*    }*/
+/*}*/
