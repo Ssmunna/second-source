@@ -78,7 +78,7 @@ const logos = [
         <!-- Brand section ends here -->
 
         <!-- work with us section start here -->
-        <div class="w-full mt-[60px] bg-[#FAFAFA]">
+        <section class="w-full mt-[60px] bg-[#FAFAFA]">
             <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
                 <!-- Left Content -->
                 <div class="flex-1 text-left p-10">
@@ -100,9 +100,10 @@ const logos = [
                     <WorkWithUsSwiperSlider/>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- work with us section ends here -->
 
+        <!-- what we build section start here -->
         <section class="bg-[#FAFAFA] py-16">
             <div class="container mx-auto px-3 grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div class="w-full">
@@ -117,54 +118,57 @@ const logos = [
                     </p>
 
                     <div class="mt-10 space-y-6">
-                        <!-- Row 1 (one centered) -->
-                        <div class="flex justify-center">
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <!-- Row 1 -->
+                        <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 App Design & Development
                             </button>
                         </div>
 
                         <!-- Row 2 -->
-                        <div class="flex justify-center gap-6">
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 Data Entry & Virtual Assistance
                             </button>
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 Business & Financial Services
                             </button>
                         </div>
 
                         <!-- Row 3 -->
-                        <div class="flex justify-center gap-6">
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 Marketing & Branding
                             </button>
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 Telemarketing & Customer Support
                             </button>
                         </div>
 
-                        <!-- Row 4 (active + normal) -->
-                        <div class="flex justify-center gap-6">
-                            <button class="flex items-center gap-2 px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M0 128c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm64 32v64c0 17.7 14.3 32 32 32h320c17.7 0 32-14.3 32-32v-64c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32m16 160c-13.3 0-24 10.7-24 24s10.7 24 24 24h56c13.3 0 24-10.7 24-24s-10.7-24-24-24zm136 0c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24z"/></svg>
+                        <!-- Row 4 -->
+                        <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
+                            <button class="w-full md:w-auto flex items-center gap-2 px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
+                                    <path fill="currentColor" d="M0 128c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm64 32v64c0 17.7 14.3 32 32 32h320c17.7 0 32-14.3 32-32v-64c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32m16 160c-13.3 0-24 10.7-24 24s10.7 24 24 24h56c13.3 0 24-10.7 24-24s-10.7-24-24-24zm136 0c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24z"/>
+                                </svg>
                                 Web Design & Development
                             </button>
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 Software Development
                             </button>
                         </div>
 
                         <!-- Row 5 -->
-                        <div class="flex justify-center gap-6">
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 UI/UX Design
                             </button>
-                            <button class="px-[24px] py-[6px] rounded-full border-[1px] border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                            <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
                                 Analytics & Reporting
                             </button>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -188,6 +192,7 @@ const logos = [
                 </div>
             </div>
         </section>
+        <!-- what we build section ends here -->
     </Main>
 </template>
 
