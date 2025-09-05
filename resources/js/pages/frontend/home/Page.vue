@@ -193,7 +193,7 @@ const logos = [
         <!-- what we build section ends here -->
 
         <!-- template hub section start here -->
-        <section class="container mx-auto bg-gradient-to-b from-gray-200 to-[#F25C30] rounded-3xl p-12 mt-16">
+        <section class="container mx-auto bg-gradient-to-b from-gray-200 to-[#F25C30] rounded-3xl p-3 py-8 md:px-12 md:py-12 mt-16">
             <!-- Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
