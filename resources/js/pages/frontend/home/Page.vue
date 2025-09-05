@@ -352,7 +352,7 @@ const logos = [
         <!-- get in touch section ends here -->
 
         <!-- about section start here -->
-        <section class="container mx-auto px-4 py-10">
+        <section class="container mx-auto pl-4 py-10">
             <div class="flex flex-col lg:flex-row gap-6">
                 <!-- Left Column -->
                 <div class="flex-1 bg-[#FAFAFA] rounded-2xl p-6 flex flex-col justify-between gap-6">
