@@ -46,7 +46,7 @@ import CrossIcon from "@/components/icons/CrossIcon.vue";
             <div class="px-4 py-8">
                 <!-- Navigation menu section start here -->
                 <div class="w-auto flex flex-col items-center gap-[25px]">
-                    <Link class="nav_link">
+                    <Link :href="route('marketplace')" class="nav_link">
                         Market Place
                     </Link>
                     <ServiceMenu />

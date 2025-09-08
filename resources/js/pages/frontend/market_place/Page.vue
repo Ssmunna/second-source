@@ -5,17 +5,17 @@ import Main from "@/layouts/frontend/Main.vue";
 <template>
     <Main>
         <section>
-            <div class="container mx-auto bg-[#FFF7EB] pt-12 px-3 md:px-[75px]  rounded-[24px]">
+            <div class="container mx-auto bg-[#FFF7EB] pt-12 px-3 md:px-[75px]  rounded-[24px] dark:bg-[#161616]">
                 <div class="max-w-5xl mx-auto text-center">
                     <!-- Heading -->
                     <h2 class="text-3xl sm:text-4xl font-bold">
                         <span class="text-[#F25C30]">Templates</span>
-                        <span class="text-[#2B3C50]">Hub</span>
+                        <span class="text-[#2B3C50] dark-text">Hub</span>
                     </h2>
 
                     <!-- Subheading -->
                     <div class="w-full md:w-10/12 mx-auto">
-                        <p class="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed">
+                        <p class="mt-4 text-gray-600 dark-text text-sm sm:text-base leading-relaxed">
                             Looking for a website or mobile app that’s ready to go? Explore our collection of premium templates, whether it’s an
                             online store, a portfolio, or a business site, we’ve got you covered.
                         </p>

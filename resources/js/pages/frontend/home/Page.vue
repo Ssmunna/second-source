@@ -24,13 +24,13 @@ const logos = [
         <div class="container px-3 mx-auto">
             <!-- Title section start here -->
             <div class="w-full md:max-w-[780px] mx-auto mt-[35px]">
-                <h1 class="text-center text-[28px] sm:text-[48px] font-[700] text-[#2B3C50]">
+                <h1 class="text-center text-[28px] sm:text-[48px] font-[700] text-[#2B3C50] dark-text">
                     Helping Businesses <span class="text-[#F25C30]">Grow<br />Globally</span>with Complete Solutions
                 </h1>
             </div>
 
             <div class="w-full md:max-w-[780px] mx-auto mt-[19px]">
-                <h1 class="text-center text-[12px] sm:text-[16px] font-[400] text-[#2B3C50] font-roboto">
+                <h1 class="text-center text-[12px] sm:text-[16px] font-[400] text-[#2B3C50] font-roboto dark-text">
                     We provide smart solutions, modern technology, and expert support to help your business succeed worldwide.
                 </h1>
             </div>
@@ -68,17 +68,17 @@ const logos = [
         <!-- Brand section ends here -->
 
         <!-- work with us section start here -->
-        <section class="w-full mt-[60px] bg-[#FAFAFA]">
+        <section class="w-full mt-[60px] bg-[#FAFAFA] dark-bg">
             <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
                 <!-- Left Content -->
                 <div class="flex-1 text-left p-10">
-                    <h2 class="text-[38px] md:text-[48px] font-bold text-[#2A2A2A]">
+                    <h2 class="text-[38px] md:text-[48px] font-bold text-[#2A2A2A] dark-text">
                         Why Work With <span class="text-[#F25C30]">Us?</span>
                     </h2>
                     <p class="text-[#F25C30] mt-3 font-bold font-sans">
                         Because Your Growth is Our Priority
                     </p>
-                    <p class="mt-4 text-[16px] font-roboto text-gray-600 leading-relaxed max-w-[500px]">
+                    <p class="mt-4 text-[16px] font-roboto text-gray-600 leading-relaxed max-w-[500px] dark-text">
                         We don’t just offer services, we create solutions that help your
                         business move faster. Every idea, every design, and every strategy
                         is built to keep you ahead of the competition.
@@ -94,14 +94,14 @@ const logos = [
         <!-- work with us section ends here -->
 
         <!-- what we build section start here -->
-        <div class="bg-[#FAFAFA] m-16 container mx-auto px-3 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="bg-[#FAFAFA] m-16 container mx-auto px-3 grid grid-cols-1 lg:grid-cols-2 gap-4 dark-bg">
             <div class="w-full">
                 <!-- Heading -->
-                <h2 class="text-3xl sm:text-4xl md:text-5xl px-8 sm:px-0 font-bold leading-snug text-[#2B3C50]">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl px-8 sm:px-0 font-bold leading-snug text-[#2B3C50] dark-text">
                     See <span class="text-[#F25C30]">What We’ve Built</span> Together
                 </h2>
                 <!-- Subtext -->
-                <p class="mt-[32px] text-[#2B3C50] px-8 sm:px-0 text-[16px] font-roboto">
+                <p class="mt-[32px] text-[#2B3C50] px-8 sm:px-0 text-[16px] font-roboto dark-text">
                     Every project tells a story of collaboration, innovation, and success.
                     Explore our portfolio and discover how we bring ideas to life.
                 </p>
@@ -109,50 +109,50 @@ const logos = [
                 <div class="mt-10 space-y-6">
                     <!-- Row 1 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             App Design & Development
                         </button>
                     </div>
 
                     <!-- Row 2 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             Data Entry & Virtual Assistance
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             Business & Financial Services
                         </button>
                     </div>
 
                     <!-- Row 3 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             Marketing & Branding
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             Telemarketing & Customer Support
                         </button>
                     </div>
 
                     <!-- Row 4 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto flex items-center gap-2 px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto flex items-center gap-2 px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
                                 <path fill="currentColor" d="M0 128c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm64 32v64c0 17.7 14.3 32 32 32h320c17.7 0 32-14.3 32-32v-64c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32m16 160c-13.3 0-24 10.7-24 24s10.7 24 24 24h56c13.3 0 24-10.7 24-24s-10.7-24-24-24zm136 0c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24z"/>
                             </svg>
                             Web Design & Development
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             Software Development
                         </button>
                     </div>
 
                     <!-- Row 5 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             UI/UX Design
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition">
+                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
                             Analytics & Reporting
                         </button>
                     </div>

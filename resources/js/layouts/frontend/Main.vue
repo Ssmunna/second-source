@@ -13,7 +13,7 @@ onMounted(() => {
 
 <template>
     <Header/>
-        <div class="w-full mt-30">
+        <div class="w-full pt-30 dark-bg">
             <slot />
         </div>
     <GetInTouch/>
