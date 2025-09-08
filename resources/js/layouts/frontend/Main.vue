@@ -1,6 +1,10 @@
 <script setup>
 import { onMounted } from "vue";
 import '../../../css/frontend.css';
+import GetInTouch from "@/layouts/frontend/GetInTouch.vue";
+import Header from "@/layouts/frontend/Header.vue";
+import Footer from "@/layouts/frontend/Footer.vue";
+import About from "@/layouts/frontend/About.vue";
 
 onMounted(() => {
     setTimeout(() => window.HSStaticMethods.autoInit(), 100);
@@ -8,7 +12,13 @@ onMounted(() => {
 </script>
 
 <template>
-    <slot />
+    <Header/>
+        <div class="w-full mt-30">
+            <slot />
+        </div>
+    <GetInTouch/>
+    <About/>
+    <Footer/>
 </template>
 
 <style scoped>

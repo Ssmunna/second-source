@@ -13,7 +13,7 @@ import ServiceMenu from "@/components/frontend/header/ServiceMenu.vue";
 
         <!-- Navigation menu section start here -->
         <div class="w-auto flex items-center gap-[45px]">
-            <Link class="nav_link">
+            <Link :href="route('marketplace')" class="nav_link">
                 Market Place
             </Link>
 
