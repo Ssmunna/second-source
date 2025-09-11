@@ -5,9 +5,9 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import CountUp from 'vue-countup-v3'
-
 import Main from "@/layouts/frontend/Main.vue";
-import VideoPlayer from "@/components/frontend/home/VideoPlayer.vue";
+import HeroSectionWithVideo from "@/components/frontend/common/HeroSectionWithVideo.vue";
+import { Head } from '@inertiajs/vue3'
 
 const slides = [
     "/assets/images/about/photo-3.png",
@@ -16,7 +16,6 @@ const slides = [
     "/assets/images/about/photo-3.png",
 ];
 
-
 const stats = [
     { value: 10, label: "Markets Served" },
     { value: 450, label: "End-to-end Projects" },
@@ -24,33 +23,15 @@ const stats = [
     { value: 180, label: "Tech Specialists" },
 ]
 
+const title = `Human centered <span class="text-[#F25C30]">future</span> focused`;
+const subtitle = 'TSS is a full-cycle app & software development company which covers specific client business needs and manages them with the help of the best possible technology solutions.'
+
 </script>
-
 <template>
+    <Head title="About" />
     <Main>
-        <section class="bg-white p-4 dark-bg">
-            <div class="container mx-auto text-center">
-                <!-- Heading -->
-                <h2 class="text-[48px] font-bold text-[#2B3C50] leading-tight dark-text">
-                    Human centered <span class="text-[#F25C30]">future</span> focused
-                </h2>
-
-                <!-- Subheading -->
-                <div class="w-7/12 mx-auto">
-                    <p class="mt-4 text-gray-500 text-[16px] font-roboto max-w-2xl mx-auto leading-relaxed dark-text">
-                        TSS is a full-cycle app & software development company which covers specific client business needs and
-                        manages them with the help of the best possible technology solutions.
-                    </p>
-                </div>
-
-                <!-- Black Box (placeholder for video) -->
-                <div class="mt-10">
-                    <VideoPlayer className="w-full h-48 sm:h-56 lg:h-[232px] rounded-3xl" />
-                </div>
-            </div>
-        </section>
-
-        <section class="p-4 bg-white dark-bg">
+        <HeroSectionWithVideo :title="title" :subtitle="subtitle" />
+        <section class="p-4">
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
 
                 <!-- Card 1 -->
@@ -102,7 +83,7 @@ const stats = [
             </div>
         </section>
 
-        <section class="pt-16 px-4 bg-white dark-bg">
+        <section class="pt-16 px-4">
             <div class="container mx-auto">
                 <!-- Heading -->
                 <h2 class="text-[36px] font-bold text-[#2B3C50] dark-text">
@@ -150,7 +131,7 @@ const stats = [
             </div>
         </section>
 
-        <section class="pt-12 px-4 dark-bg">
+        <section class="pt-12 px-4">
             <div class="container mx-auto">
                 <h2 class="text-2xl md:text-3xl font-bold text-[#2B3C50] dark-text">
                     Our Proud <span class="text-[#F25C30]">Achievements</span>

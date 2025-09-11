@@ -16,7 +16,7 @@
 }
 
 .dark-bg{
-    @apply dark:bg-[#121212]
+    @apply dark:bg-[#FAFAFA1A]
 }
 
 .dark-text{
@@ -41,4 +41,10 @@
 
 .nav-items{
     @apply w-full h-[47px] flex justify-center items-center text-[#2B3C50] hover:bg-[#F25C30] hover:text-[#FFFFFF] duration-150 cursor-pointer rounded-[20px]
+}
+
+
+/*Career Page design*/
+.bubble {
+    @apply px-6 py-2 border border-gray-400 rounded-full text-gray-600 text-sm whitespace-nowrap bg-white dark:bg-[#bdbebe] shadow-sm;
 }

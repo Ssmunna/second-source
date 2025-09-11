@@ -1,11 +1,13 @@
 <script setup>
 import Main from "@/layouts/frontend/Main.vue";
+import {Head} from "@inertiajs/vue3";
 </script>
 
 <template>
+    <Head title="Market Place" />
     <Main>
         <section>
-            <div class="container mx-auto bg-[#FFF7EB] pt-12 px-3 md:px-[75px]  rounded-[24px] dark:bg-[#161616]">
+            <div class="container mx-auto bg-[#FFF7EB] pt-12 px-3 md:px-[75px]  rounded-[24px] dark-bg">
                 <div class="max-w-5xl mx-auto text-center">
                     <!-- Heading -->
                     <h2 class="text-3xl sm:text-4xl font-bold">

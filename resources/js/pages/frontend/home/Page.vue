@@ -1,8 +1,9 @@
 <script setup>
 import Main from "@/layouts/frontend/Main.vue";
-import VideoPlayer from "@/components/frontend/home/VideoPlayer.vue";
+import VideoPlayer from "@/components/frontend/common/VideoPlayer.vue";
 import TrustedSwiperSlider from "@/components/frontend/home/TrustedSwiperSlider.vue";
 import WorkWithUsSwiperSlider from "@/components/frontend/home/WorkWithUsSwiperSlider.vue";
+import {Head} from "@inertiajs/vue3";
 
 const logos = [
     "/assets/images/brand/photo-1.png",
@@ -19,6 +20,7 @@ const logos = [
 </script>
 
 <template>
+    <Head title="Home" />
     <Main>
         <!-- Hero section start here -->
         <div class="container px-3 mx-auto">
@@ -68,8 +70,8 @@ const logos = [
         <!-- Brand section ends here -->
 
         <!-- work with us section start here -->
-        <section class="w-full mt-[60px] bg-[#FAFAFA] dark-bg">
-            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
+        <section class="w-full mt-[60px]">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 dark-bg rounded-[24px]">
                 <!-- Left Content -->
                 <div class="flex-1 text-left p-10">
                     <h2 class="text-[38px] md:text-[48px] font-bold text-[#2A2A2A] dark-text">
@@ -86,7 +88,7 @@ const logos = [
                 </div>
 
                 <!-- Right Slider -->
-                <div class="flex-1 w-full p-3">
+                <div class="flex-1 w-full">
                     <WorkWithUsSwiperSlider/>
                 </div>
             </div>
@@ -94,8 +96,8 @@ const logos = [
         <!-- work with us section ends here -->
 
         <!-- what we build section start here -->
-        <div class="bg-[#FAFAFA] m-16 container mx-auto px-3 grid grid-cols-1 lg:grid-cols-2 gap-4 dark-bg">
-            <div class="w-full">
+        <div class="bg-[#FAFAFA] dark:bg-transparent m-16 container mx-auto px-3 grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="w-full p-[24px] dark-bg rounded-[24px]">
                 <!-- Heading -->
                 <h2 class="text-3xl sm:text-4xl md:text-5xl px-8 sm:px-0 font-bold leading-snug text-[#2B3C50] dark-text">
                     See <span class="text-[#F25C30]">What We’ve Built</span> Together
@@ -109,50 +111,50 @@ const logos = [
                 <div class="mt-10 space-y-6">
                     <!-- Row 1 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             App Design & Development
                         </button>
                     </div>
 
                     <!-- Row 2 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             Data Entry & Virtual Assistance
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             Business & Financial Services
                         </button>
                     </div>
 
                     <!-- Row 3 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             Marketing & Branding
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             Telemarketing & Customer Support
                         </button>
                     </div>
 
                     <!-- Row 4 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto flex items-center gap-2 px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="flex items-center gap-2 bubble">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
                                 <path fill="currentColor" d="M0 128c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm64 32v64c0 17.7 14.3 32 32 32h320c17.7 0 32-14.3 32-32v-64c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32m16 160c-13.3 0-24 10.7-24 24s10.7 24 24 24h56c13.3 0 24-10.7 24-24s-10.7-24-24-24zm136 0c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24z"/>
                             </svg>
                             Web Design & Development
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             Software Development
                         </button>
                     </div>
 
                     <!-- Row 5 -->
                     <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-6">
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             UI/UX Design
                         </button>
-                        <button class="w-full md:w-auto px-[24px] py-[6px] rounded-full border border-[#2B3C50] text-[#2B3C50] text-[16px] font-[400] hover:bg-[#F25C30] hover:border-[#F25C30] hover:text-white duration-150 transition dark-text dark-border">
+                        <button class="bubble">
                             Analytics & Reporting
                         </button>
                     </div>
@@ -182,7 +184,7 @@ const logos = [
         <!-- what we build section ends here -->
 
         <!-- template hub section start here -->
-        <section class="container mx-auto bg-gradient-to-b from-gray-200 to-[#F25C30] rounded-3xl p-3 py-8 md:px-12 md:py-12 mt-16">
+        <section class="container mx-auto rounded-3xl p-3 py-8 md:px-12 md:py-12 mt-16" style="background: linear-gradient(to top, #F25C30 10%, transparent);">
             <!-- Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 

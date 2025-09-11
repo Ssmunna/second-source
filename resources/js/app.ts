@@ -8,7 +8,7 @@ import { createApp, h } from 'vue';
 import { initializeTheme } from './composables/useAppearance';
 import { ZiggyVue } from 'ziggy-js'
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+const appName = import.meta.env.VITE_APP_NAME || 'Second Source';
 
 createInertiaApp({
     title: (title) => (title ? `${title} - ${appName}` : appName),
