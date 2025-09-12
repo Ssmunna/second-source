@@ -57,8 +57,7 @@ const emits = defineEmits(['toggleTheme'])
                 Contact
             </Link>
 
-            <Link
-                class="group w-[143px] h-[36px] flex items-center justify-center gap-2 bg-[#F25C30] text-[16px] text-[#FFFFFF] font-[400] rounded-[20px] border-[1px] border-[#F25C30] hover:bg-[#FFFFFF] hover:text-[#F25C30] duration-150"
+            <a target="_blank" href="https://wa.me/+8801929988183" class="group w-[143px] h-[36px] flex items-center justify-center gap-2 bg-[#F25C30] text-[16px] text-[#FFFFFF] font-[400] rounded-[20px] border-[1px] border-[#F25C30] hover:bg-[#FFFFFF] hover:text-[#F25C30] duration-150"
             >
                 Let's Talk
                 <svg
@@ -74,7 +73,7 @@ const emits = defineEmits(['toggleTheme'])
                         fill="currentColor"
                     />
                 </svg>
-            </Link>
+            </a>
         </div>
         <!-- Action button section ends here -->
     </div>
