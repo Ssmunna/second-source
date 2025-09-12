@@ -93,21 +93,21 @@ const services = ref([
             </div>
         </section>
         <section class="w-full mt-[60px]">
-            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 dark-bg rounded-[24px]">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6  rounded-[24px]">
                 <!-- Left Content -->
-                <div class="bg-gray-50 flex items-center justify-center px-4 md:px-[30px] py-[40px]">
+                <div class="bg-gray-50 flex items-center justify-center px-4 md:px-[30px] pt-[10px] dark-bg">
                     <div class="max-w-6xl w-full">
                         <div class="text-left mb-10">
-                            <h1 class="text-[36px] font-bold text-[#2B3C50]">We Offer</h1>
-                            <p class="mt-4 text-[#2B3C50]/70 font-roboto">
+                            <h1 class="text-[36px] font-bold text-[#2B3C50] dark:text-[#FFFFFF]">We Offer</h1>
+                            <p class="mt-4 text-[#2B3C50]/70 dark:text-[#FAFAFA]/70 font-roboto">
                                 Comprehensive Marketing & Branding Solutions Tailored to Your Business.
                             </p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div v-for="service in services" :key="service.title" class="flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-lg transition-transform transform hover:scale-105">
+                            <div v-for="service in services" :key="service.title" class="flex flex-col items-center text-center p-8 bg-white dark:bg-[#2B3C50] rounded-xl shadow-lg transition-transform transform hover:scale-105">
                                 <img :src="service.icon" alt="icon">
                                 <h3 class="text-[#F25C30] font-bold text-[15px]">{{ service.title }}</h3>
-                                <p class="mt-2 text-[#2B3C50] font-roboto text-[12px]">{{ service.description }}</p>
+                                <p class="mt-2 text-[#2B3C50] dark:text-[#FAFAFA] font-roboto text-[12px]">{{ service.description }}</p>
                             </div>
                         </div>
                     </div>
@@ -120,17 +120,17 @@ const services = ref([
             </div>
         </section>
         <section class="w-full mt-[60px]">
-            <div class="container mx-auto flex flex-col md:flex-row items-center px-3">
+            <div class="container mx-auto flex flex-col md:flex-row items-center gap-4 px-3">
                 <!-- Left Side -->
-                <div class="w-full md:w-[60%]">
-                    <div class="w-full bg-[#FFF9F2] py-12 px-4 md:px-8 rounded-2xl">
+                <div class="w-full bg-[#FFF9F2] md:w-[60%] rounded-2xl dark-bg">
+                    <div class="w-full py-12 px-4 md:px-8">
                         <!-- Title -->
-                        <h2 class="text-[36px] font-bold text-[#2B3C50] mb-4">
+                        <h2 class="text-[36px] font-bold text-[#2B3C50] dark:text-[#FFFFFF] mb-4">
                             Branding Services
                         </h2>
 
                         <!-- Subtitle -->
-                        <p class="md:w-10/12 text-[16px] text-[#2B3C50]/70 font-roboto mb-6">
+                        <p class="md:w-10/12 text-[16px] text-[#2B3C50]/70 font-roboto mb-6 dark:text-[#FAFAFA]">
                             Branding services help businesses create a unique and memorable identity
                             that resonates with their target audience.
                         </p>
@@ -183,8 +183,8 @@ const services = ref([
         <section class="w-full mt-[60px]">
             <div class="container mx-auto">
                 <div class="w-full space-y-[20px] mb-[30px]">
-                    <h1 class="text-[32px] font-bold text-[#2B3C50]">Explore Our Previous Work</h1>
-                    <p  class="text-[16px] font-roboto text-[#2B3C50]/70">Defining clear brand standards and compelling messaging to ensure consistency and impact across all design touch points.</p>
+                    <h1 class="text-[32px] font-bold text-[#2B3C50] dark:text-[#FFFFFF]">Explore Our Previous Work</h1>
+                    <p  class="text-[16px] font-roboto text-[#2B3C50]/70 dark:text-[#FAFAFA]/70">Defining clear brand standards and compelling messaging to ensure consistency and impact across all design touch points.</p>
                 </div>
                 <div class="w-full  grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Link class="w-full h-[461px]">
