@@ -12,9 +12,7 @@ defineProps({
     <section class="p-4">
         <div class="container mx-auto text-center">
             <!-- Heading -->
-            <h2 class="text-[48px] font-bold text-[#2B3C50] leading-tight dark-text" v-html="title">
-            </h2>
-
+            <h2 class="text-[48px] font-bold text-[#2B3C50] leading-tight dark-text" v-html="title"></h2>
             <!-- Subheading -->
             <div class="w-7/12 mx-auto">
                 <p class="mt-4 text-gray-500 text-[16px] font-roboto max-w-2xl mx-auto leading-relaxed dark-text">
