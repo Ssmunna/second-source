@@ -10,13 +10,12 @@ import {Head} from "@inertiajs/vue3";
             <div class="container mx-auto bg-[#FFF7EB] pt-12 px-3 md:px-[75px]  rounded-[24px] dark-bg">
                 <div class="max-w-5xl mx-auto text-center">
                     <!-- Heading -->
-                    <h2 class="text-3xl sm:text-4xl font-bold">
+                    <h2 class="text-3xl sm:text-4xl font-bold" data-aos="fade-right">
                         <span class="text-[#F25C30]">Templates</span>
                         <span class="text-[#2B3C50] dark-text">Hub</span>
                     </h2>
-
                     <!-- Subheading -->
-                    <div class="w-full md:w-10/12 mx-auto">
+                    <div class="w-full md:w-10/12 mx-auto" data-aos="fade-right">
                         <p class="mt-4 text-gray-600 dark-text text-sm sm:text-base leading-relaxed">
                             Looking for a website or mobile app that’s ready to go? Explore our collection of premium templates, whether it’s an
                             online store, a portfolio, or a business site, we’ve got you covered.
@@ -88,7 +87,7 @@ import {Head} from "@inertiajs/vue3";
                         </div>
                     </div>
 
-                    <div class="w-full">
+                    <div class="w-full" data-aos="fade-up">
                         <!-- Cards -->
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-[41px]">
                             <!-- Card 1 -->

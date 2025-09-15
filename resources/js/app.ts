@@ -1,6 +1,9 @@
 import '../css/app.css';
 import 'preline/preline'
 
+import "aos/dist/aos.css";
+import AOS from "aos";
+
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import type { DefineComponent } from 'vue';
@@ -24,5 +27,9 @@ createInertiaApp({
     },
 });
 
+AOS.init({
+    duration: 1000, // animation duration (ms)
+    once: true,     // whether animation should happen only once
+});
 // This will set light / dark mode on page load...
 initializeTheme();

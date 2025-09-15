@@ -84,7 +84,7 @@ const responsibilities = [
         <HeroSectionWithVideo :title="title" :subtitle="subtitle" />
         <div class="container px-3 mx-auto flex flex-col lg:flex-row items-center gap-10 sm:gap-2 mt-[60px] overflow-hidden">
             <!-- Left Text -->
-            <div class="w-full lg:min-w-[365px]">
+            <div class="w-full lg:min-w-[365px]" data-aos="fade-right">
                 <h2 class="text-[36px] font-bold text-[#F25C30] mb-4">
                     Meet the Humans<br>
                     Behind the Logs
@@ -102,7 +102,7 @@ const responsibilities = [
         <section class="w-full mt-[60px]">
             <div class="container mx-auto flex flex-col md:flex-row gap-10 bg-[#FAFAFA] dark-bg">
                 <!-- Left Content -->
-                <div class="w-full md:w-[50%] text-left md:p-10">
+                <div class="w-full md:w-[50%] text-left md:p-10" data-aos="fade-right">
                     <h2 class="text-[38px] md:text-[48px] font-bold text-[#2A2A2A] dark-text">
                         Build With <span class="text-[#F25C30]">Us</span>
                     </h2>
@@ -112,13 +112,13 @@ const responsibilities = [
                 </div>
 
                 <!-- Right Slider -->
-                <div class="w-full md:w-[50%]">
+                <div class="w-full md:w-[50%]" data-aos="fade-left">
                     <BuildWithUsSwiperSlider/>
                 </div>
             </div>
         </section>
         <section class="w-full">
-            <div v-for="i in 3" :key="i" class="container mx-auto odd:bg-[#FFF7EB] dark-bg rounded-[24px] py-[24px] px-[44px] mt-[60px]">
+            <div v-for="i in 3" :key="i" class="container mx-auto odd:bg-[#FFF7EB] dark-bg rounded-[24px] py-[24px] px-[44px] mt-[60px]" data-aos="fade-up">
                 <div class="w-full flex flex-col lg:flex-row gap-6">
                     <!--  Left side -->
                     <div class="w-full lg:w-[50%]">

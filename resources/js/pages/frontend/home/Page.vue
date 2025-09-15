@@ -23,7 +23,7 @@ const logos = [
     <Head title="Home" />
     <Main>
         <!-- Hero section start here -->
-        <div class="container px-3 mx-auto">
+        <div class="container px-3 mx-auto" data-aos="fade-right">
             <!-- Title section start here -->
             <div class="w-full md:max-w-[780px] mx-auto mt-[35px]">
                 <h1 class="text-center text-[28px] sm:text-[48px] font-[700] text-[#2B3C50] dark-text">
@@ -73,7 +73,7 @@ const logos = [
         <section class="w-full mt-[60px]">
             <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 dark-bg rounded-[24px]">
                 <!-- Left Content -->
-                <div class="flex-1 text-left p-10">
+                <div class="flex-1 text-left p-10" data-aos="fade-right">
                     <h2 class="text-[38px] md:text-[48px] font-bold text-[#2A2A2A] dark-text">
                         Why Work With <span class="text-[#F25C30]">Us?</span>
                     </h2>
@@ -88,7 +88,7 @@ const logos = [
                 </div>
 
                 <!-- Right Slider -->
-                <div class="flex-1 w-full">
+                <div class="flex-1 w-full" data-aos="fade-left">
                     <WorkWithUsSwiperSlider/>
                 </div>
             </div>
@@ -97,7 +97,7 @@ const logos = [
 
         <!-- what we build section start here -->
         <div class="bg-[#FAFAFA] dark:bg-transparent m-16 container mx-auto px-3 grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div class="w-full p-[24px] dark-bg rounded-[24px]">
+            <div class="w-full p-[24px] dark-bg rounded-[24px]" data-aos="fade-right">
                 <!-- Heading -->
                 <h2 class="text-3xl sm:text-4xl md:text-5xl px-8 sm:px-0 font-bold leading-snug text-[#2B3C50] dark-text">
                     See <span class="text-[#F25C30]">What We’ve Built</span> Together
@@ -161,7 +161,7 @@ const logos = [
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-aos="fade-left">
                 <!-- Left column (2 stacked images) -->
                 <div class="grid grid-rows-2 gap-6">
                     <!-- Top Image -->
@@ -184,7 +184,7 @@ const logos = [
         <!-- what we build section ends here -->
 
         <!-- template hub section start here -->
-        <section class="container mx-auto rounded-3xl p-3 py-8 md:px-12 md:py-12 mt-16" style="background: linear-gradient(to top, #F25C30 10%, transparent);">
+        <section class="container mx-auto rounded-3xl p-3 py-8 md:px-12 md:py-12 mt-16" data-aos="fade-up" style="background: linear-gradient(to top, #F25C30 10%, transparent);">
             <!-- Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 

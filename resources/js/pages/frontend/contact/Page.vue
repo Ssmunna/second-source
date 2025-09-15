@@ -15,7 +15,7 @@ const subtitle = 'Have a question or need assistance? Simply fill out the form, 
         <section class="w-full mt-[60px]">
             <div class="container px-3 mx-auto flex flex-col lg:flex-row items-center gap-10 sm:gap-2 overflow-hidden">
                 <!-- Left Text -->
-                <div class="w-full lg:w-[450px]">
+                <div class="w-full lg:w-[450px]" data-aos="fade-right">
                     <h2 class="text-[36px] font-bold text-[#F25C30] mb-4">
                         Where to Find Us
                     </h2>
@@ -58,7 +58,7 @@ const subtitle = 'Have a question or need assistance? Simply fill out the form, 
         <section class="w-full mt-[60px]">
             <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 dark-bg rounded-[24px]">
                 <!-- Left Content -->
-                <div class="flex-1 text-left px-4 md:px-10">
+                <div class="flex-1 text-left px-4 md:px-10" data-aos="fade-right">
                     <!-- Heading -->
                     <h2 class="text-[36px] font-bold mb-6 mt-3">
                         <span class="text-[#F25C30]">Share</span>
@@ -124,7 +124,7 @@ const subtitle = 'Have a question or need assistance? Simply fill out the form, 
                 </div>
 
                 <!-- Right Slider -->
-                <div class="flex-1 w-full px-4 md:px-0">
+                <div class="flex-1 w-full px-4 md:px-0" data-aos="fade-left">
                     <ContactFormSlider/>
                 </div>
             </div>

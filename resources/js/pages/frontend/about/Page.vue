@@ -33,9 +33,8 @@ const subtitle = 'TSS is a full-cycle app & software development company which c
         <HeroSectionWithVideo :title="title" :subtitle="subtitle" />
         <section class="p-4">
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-
                 <!-- Card 1 -->
-                <div class="relative rounded-3xl overflow-hidden h-[636px]">
+                <div class="relative rounded-3xl overflow-hidden h-[636px]" data-aos="fade-right">
                     <img src="/assets/images/about/photo-1.png" alt="Team working" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent dark:from-gray-600 dark:via-gray-600/80"></div>
 
@@ -58,7 +57,7 @@ const subtitle = 'TSS is a full-cycle app & software development company which c
                 </div>
 
                 <!-- Card 2 -->
-                <div class="relative rounded-3xl overflow-hidden h-[636px]">
+                <div class="relative rounded-3xl overflow-hidden h-[636px]" data-aos="fade-left">
                     <img src="/assets/images/about/photo-2.png" alt="Team collaboration" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent dark:from-gray-600 dark:via-gray-600/80"></div>
 
@@ -84,7 +83,7 @@ const subtitle = 'TSS is a full-cycle app & software development company which c
         </section>
 
         <section class="pt-16 px-4">
-            <div class="container mx-auto">
+            <div class="container mx-auto" data-aos="fade-right">
                 <!-- Heading -->
                 <h2 class="text-[36px] font-bold text-[#2B3C50] dark-text">
                     Our <span class="text-[#F25C30]">Mission</span>
@@ -133,15 +132,15 @@ const subtitle = 'TSS is a full-cycle app & software development company which c
 
         <section class="pt-12 px-4">
             <div class="container mx-auto">
-                <h2 class="text-2xl md:text-3xl font-bold text-[#2B3C50] dark-text">
+                <h2 class="text-2xl md:text-3xl font-bold text-[#2B3C50] dark-text" data-aos="fade-right">
                     Our Proud <span class="text-[#F25C30]">Achievements</span>
                 </h2>
-                <p class="mt-2 text-gray-600 max-w-2xl mx-auto dark-text">
+                <p class="mt-2 text-gray-600 max-w-2xl mx-auto dark-text" data-aos="fade-right">
                     We’ve come a long way from a small team of software developers in 2023,
                     to an all-around expert team as of today!
                 </p>
 
-                <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" data-aos="fade-up">
                     <div
                         v-for="(stat, i) in stats"
                         :key="i"

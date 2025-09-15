@@ -81,11 +81,11 @@ const services = ref([
             </div>
             <div class="container mx-auto text-center mt-[50px]">
                 <!-- Heading -->
-                <h2 class="text-[48px] font-bold text-[#2B3C50] leading-tight dark-text">
+                <h2 class="text-[48px] font-bold text-[#2B3C50] leading-tight dark-text" data-aos="fade-right">
                     Marketing & <span class="text-[#FFA629]">Branding</span>
                 </h2>
                 <!-- Subheading -->
-                <div class="w-10/12 mx-auto">
+                <div class="w-10/12 mx-auto" data-aos="fade-right">
                     <p class="mt-[35px] text-[#2B3C50] text-[16px] font-roboto max-w-2xl mx-auto leading-relaxed dark-text">
                         At Second Source, we don't just market brands—we craft experiences. Our marketing & branding strategies are designed to resonate with your audience, build loyalty, and drive measurable growth.
                     </p>
@@ -95,7 +95,7 @@ const services = ref([
         <section class="w-full mt-[60px]">
             <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6  rounded-[24px]">
                 <!-- Left Content -->
-                <div class="bg-gray-50 flex items-center justify-center px-4 md:px-[30px] pt-[10px] dark-bg">
+                <div class="bg-gray-50 flex items-center justify-center px-4 md:px-[30px] pt-[10px] dark-bg" data-aos="fade-right">
                     <div class="max-w-6xl w-full">
                         <div class="text-left mb-10">
                             <h1 class="text-[36px] font-bold text-[#2B3C50] dark:text-[#FFFFFF]">We Offer</h1>
@@ -114,7 +114,7 @@ const services = ref([
                 </div>
 
                 <!-- Right Slider -->
-                <div class="flex-1 w-full px-4 md:px-0">
+                <div class="flex-1 w-full px-4 md:px-0" data-aos="fade-left">
                     <ServiceOfferSlider/>
                 </div>
             </div>
@@ -122,7 +122,7 @@ const services = ref([
         <section class="w-full mt-[60px]">
             <div class="container mx-auto flex flex-col md:flex-row items-center gap-4 px-3">
                 <!-- Left Side -->
-                <div class="w-full bg-[#FFF9F2] md:w-[60%] rounded-2xl dark-bg">
+                <div class="w-full bg-[#FFF9F2] md:w-[60%] rounded-2xl dark-bg" data-aos="fade-right">
                     <div class="w-full py-12 px-4 md:px-8">
                         <!-- Title -->
                         <h2 class="text-[36px] font-bold text-[#2B3C50] dark:text-[#FFFFFF] mb-4">
@@ -157,7 +157,7 @@ const services = ref([
                     </div>
                 </div>
                 <!-- Right Side -->
-                <div class="w-full md:w-[40%]">
+                <div class="w-full md:w-[40%]" data-aos="fade-left">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <!-- Left column (2 stacked images) -->
                         <div class="grid grid-rows-2 gap-6 h-[368px]">
@@ -182,15 +182,15 @@ const services = ref([
         </section>
         <section class="w-full mt-[60px]">
             <div class="container mx-auto">
-                <div class="w-full space-y-[20px] mb-[30px]">
+                <div class="w-full space-y-[20px] mb-[30px]" data-aos="fade-right">
                     <h1 class="text-[32px] font-bold text-[#2B3C50] dark:text-[#FFFFFF]">Explore Our Previous Work</h1>
                     <p  class="text-[16px] font-roboto text-[#2B3C50]/70 dark:text-[#FAFAFA]/70">Defining clear brand standards and compelling messaging to ensure consistency and impact across all design touch points.</p>
                 </div>
                 <div class="w-full  grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <Link class="w-full h-[461px]">
+                    <Link class="w-full h-[461px]" data-aos="fade-right">
                         <img src="/assets/images/service/prev-behance.png" alt="image" class="w-full h-full">
                     </Link>
-                    <Link class="w-full h-[461px]">
+                    <Link class="w-full h-[461px]" data-aos="fade-left">
                         <img src="/assets/images/service/prev-dribbble.png" alt="image" class="w-full h-full">
                     </Link>
                 </div>

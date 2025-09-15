@@ -62,7 +62,7 @@ import {Link} from "@inertiajs/vue3";
             </div>
 
             <!-- Right Column (Video) -->
-            <div class="flex-1  rounded-2xl overflow-hidden">
+            <div class="flex-1  rounded-2xl overflow-hidden" data-aos="fade-left">
                 <video autoplay loop playsinline class="w-full h-full object-cover rounded-2xl">
                     <source src="/assets/video/Promo.mp4" type="video/mp4">
                     Your browser does not support the video tag.

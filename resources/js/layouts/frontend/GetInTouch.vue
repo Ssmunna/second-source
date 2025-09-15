@@ -4,7 +4,7 @@
 
 <template>
     <!-- get in touch section start here -->
-    <section class="mt-16">
+    <section class="mt-16" data-aos="fade-up">
         <div class="relative w-full container mx-auto bg-[url('/assets/images/get_in_touch/photo-2.png')] px-6  bg-cover bg-center rounded-2xl">
             <div class="p-8 relative z-10">
                 <div class="flex flex-col md:flex-row items-center md:items-center gap-8">
