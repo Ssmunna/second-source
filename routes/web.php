@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('dashboard', function () {
-    return Inertia::render('Dashboard');
+    return Inertia::render('backend/dashboard/Page');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Autoloader::loadFilesRecursivelyInDirs([__DIR__ . '/web/']);

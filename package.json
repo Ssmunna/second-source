@@ -30,6 +30,7 @@
     },
     "dependencies": {
         "@inertiajs/vue3": "^2.1.0",
+        "@kalimahapps/vue-icons": "^1.8.1",
         "@vueuse/core": "^12.8.2",
         "aos": "^2.3.4",
         "class-variance-authority": "^0.7.1",
