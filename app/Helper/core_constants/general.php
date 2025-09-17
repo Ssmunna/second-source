@@ -4,3 +4,11 @@ const STATUS_INACTIVE    = 'inactive';
 const STATUS_PENDING     = 'pending';
 
 
+const HOME_PAGE         = 'home';
+const ABOUT_PAGE        = 'about';
+const CAREER_PAGE       = 'career';
+const CONTACT_PAGE       = 'contact';
+
+
+
+

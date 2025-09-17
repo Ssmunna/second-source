@@ -11,6 +11,9 @@ import { createApp, h } from 'vue';
 import { initializeTheme } from './composables/useAppearance';
 import { ZiggyVue } from 'ziggy-js'
 
+import { QuillEditor } from '@vueup/vue-quill'
+import '@vueup/vue-quill/dist/vue-quill.snow.css';
+
 const appName = import.meta.env.VITE_APP_NAME || 'Second Source';
 
 createInertiaApp({
@@ -20,6 +23,7 @@ createInertiaApp({
         createApp({ render: () => h(App, props) })
             .use(plugin)
             .use(ZiggyVue)
+            .component('QuillEditor', QuillEditor)
             .mount(el);
     },
     progress: {
