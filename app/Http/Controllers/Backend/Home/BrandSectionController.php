@@ -4,15 +4,15 @@ namespace App\Http\Controllers\Backend\Home;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Backend\Home\Hero\UpdateRequest;
-use App\Http\Services\Backend\Home\HeroSectionService;
+use App\Http\Services\Backend\Home\BrandSectionService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Inertia\Response;
 
-class HeroSectionController extends Controller
+class BrandSectionController extends Controller
 {
-    public function __construct(private readonly HeroSectionService $heroSectionService){}
+    public function __construct(private readonly BrandSectionService $brandSectionService){}
 
     /**
      * @param Request $request
@@ -20,9 +20,9 @@ class HeroSectionController extends Controller
      */
     public function page(Request $request): Response|RedirectResponse
     {
-        $response = $this->handleSession( $this->heroSectionService->Page($request->query()));
+        $response = $this->handleSession( $this->brandSectionService->Page($request->query()));
         return $response['success'] ?
-            Inertia::render('backend/home/hero_section/Page', $response) :
+            Inertia::render('backend/home/brand_section/Page', $response) :
             back()->withErrors($response['message']);
     }
 
@@ -33,7 +33,7 @@ class HeroSectionController extends Controller
      */
     public function createOrUpdate(UpdateRequest $request): Response|RedirectResponse
     {
-        $response = $this->heroSectionService->createOrUpdate( $request->all());
+        $response = $this->brandSectionService->createOrUpdate( $request->all());
         return $response['success'] ?
             back()->with($response):
             back()->withErrors($response['message']);

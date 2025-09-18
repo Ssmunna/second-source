@@ -1,10 +1,11 @@
 <?php
 namespace App\Http\Services\Backend\Home;
+use App\Models\Brand;
 use App\Models\HeroSection;
 use App\Traits\FileSaver;
 use App\Traits\Response;
 
-class HeroSectionService
+class BrandSectionService
 {
     use Response, FileSaver;
 
@@ -14,9 +15,21 @@ class HeroSectionService
      */
     public function Page(array $query): array
     {
-        $content = HeroSection::where('page', HOME_PAGE)->first();
+        $length = 30;
 
-        return $this->response(['content' => $content])->success();
+        $dBQuery = Brand::query();
+
+        if(!empty($query['status'])){
+            $dBQuery->where('status', $query['status']);
+        }
+
+        if(!empty($query['length'])){
+            $length = $query['length'];
+        }
+
+        $brands = $dBQuery->paginate($length)->withQueryString();
+
+        return $this->response(['brands' => $brands])->success();
     }
 
     /**

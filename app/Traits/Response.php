@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Traits;
+namespace App\Traits;
 
 trait Response
 {
@@ -13,7 +13,7 @@ trait Response
 
     /**
      * @param array $data
-     * @return object|$this
+     * @return object
      */
     protected function response (array $data = []): object
     {

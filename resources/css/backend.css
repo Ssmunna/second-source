@@ -17,5 +17,33 @@
 }
 
 .input{
-    @apply border border-gray-400 p-1 rounded placeholder:text-gray-400 placeholder:font-semibold focus:outline-0 focus:border-gray-500;
+    @apply border border-gray-400 py-1.5 px-3 rounded placeholder:text-gray-400 placeholder:text-[13px] focus:outline-0 focus:border-gray-500;
+}
+
+
+.striped-bg {
+    background-image: repeating-linear-gradient(
+        45deg,
+        #f3f4f6 0,
+        #f3f4f6 10px,
+        #ffffff 10px,
+        #ffffff 20px
+    );
+    background-size: 40px 40px;
+    animation: stripesMove 1s linear infinite;
+    transition: opacity 0.3s ease;
+}
+
+@keyframes stripesMove {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 40px 40px;
+    }
+}
+
+/* Optional: animate only on hover */
+label:hover .striped-bg {
+    opacity: 1;
 }

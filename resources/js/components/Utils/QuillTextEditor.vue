@@ -1,7 +1,7 @@
 <script setup>
+import { ref, watch } from 'vue'
 import { QuillEditor } from '@vueup/vue-quill'
 import '@vueup/vue-quill/dist/vue-quill.snow.css'
-import { ref, watch } from 'vue';
 
 const toolbar = [
     ['bold', 'italic', 'underline', 'strike'],
@@ -10,22 +10,38 @@ const toolbar = [
     [{ color: [] }, { background: [] }],
     ['link', 'image', 'video'],
     ['clean']
-];
+]
 
+// Step 1: define props
 const props = defineProps({
-    content: String
+    modelValue: String,
+    placeholder: { type: String, default: '' }
 })
-const emit = defineEmits(['update:content'])
 
-const localContent = ref(props.content)
+// Step 2: define emits
+const emit = defineEmits(['update:modelValue'])
 
-watch(localContent, (val) => {
-    emit('update:content', val)
-})
+// Step 3: local ref
+const localContent = ref(props.modelValue || '')
+
+watch(() => props.modelValue,(val) => {
+        if (val !== localContent.value) localContent.value = val
+    }
+)
+
+// Step 5: watch local -> emit
+watch(localContent, (val) => emit('update:modelValue', val))
 </script>
 
 <template>
-    <QuillEditor v-model="localContent" theme="snow" :toolbar="toolbar" />
+    <QuillEditor
+        v-model:content="localContent"
+        content-type="html"
+        theme="snow"
+        :placeholder="placeholder"
+        style="height: 100px"
+        :toolbar="toolbar"
+    />
 </template>
 
 <style scoped>
